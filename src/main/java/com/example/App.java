@@ -40,7 +40,7 @@ public class App {
 
         runSynchronously(request);
         printSeparator();
-        runWithoutPhysicallThreads(request);
+        runWithPlatformThreads(request);
         printSeparator();
         runWithVirtualThreads(request);
         printSeparator();
@@ -63,7 +63,7 @@ public class App {
     }
 
     // Variant 2: Without Virtual Threads, using default Executors
-    public static void runWithoutPhysicallThreads(HttpRequest request) {
+    public static void runWithPlatformThreads(HttpRequest request) {
         long startTime = System.nanoTime();
         try (ExecutorService executor = Executors.newFixedThreadPool(10);
              HttpClient client = HttpClient.newBuilder().executor(executor).build()) {
