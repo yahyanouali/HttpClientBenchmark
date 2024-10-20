@@ -4,16 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c75b81b7-424c-4dfe-8f20-8555cd70a242" name="Changes" comment="HttpClient Benchmark Using Threads, Virtual Threads And Mutiny">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="c75b81b7-424c-4dfe-8f20-8555cd70a242" name="Changes" comment="Added README.md file and fixed typos">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Benchmark.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/AppTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -28,10 +34,10 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2nhuBWC5w37N37HchPf533s0UnY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -42,6 +48,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.App.executor": "Run",
+    "Application.Benchmark.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -59,7 +66,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Benchmark">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.App" />
       <module name="MutinyQuickTests" />
@@ -73,8 +80,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Benchmark" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.Benchmark" />
+      <module name="MutinyQuickTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Benchmark" />
         <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
@@ -96,7 +117,8 @@
       <option name="presentableId" value="Default" />
       <updated>1729418442455</updated>
       <workItem from="1729418443514" duration="2330000" />
-      <workItem from="1729437495097" duration="6102000" />
+      <workItem from="1729437495097" duration="6251000" />
+      <workItem from="1729444058957" duration="1453000" />
     </task>
     <task id="LOCAL-00001" summary="HttpClient Benchmark Using Threads, Virtual Threads And Mutiny">
       <option name="closed" value="true" />
@@ -106,7 +128,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729442755578</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added README.md file and fixed typos">
+      <option name="closed" value="true" />
+      <created>1729443638762</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729443638762</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +144,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="HttpClient Benchmark Using Threads, Virtual Threads And Mutiny" />
-    <option name="LAST_COMMIT_MESSAGE" value="HttpClient Benchmark Using Threads, Virtual Threads And Mutiny" />
+    <MESSAGE value="Added README.md file and fixed typos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added README.md file and fixed typos" />
   </component>
 </project>

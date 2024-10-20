@@ -25,7 +25,7 @@ import java.util.concurrent.TimeUnit;
 @Slf4j
 public class App {
 
-    public static final int NUMBER_OF_CALLS = 100;
+    public static final int NUMBER_OF_CALLS = 10;
 
     public static void main(String[] args) throws URISyntaxException, IOException, InterruptedException {
         Uni.createFrom().item("Hello World!").subscribe().with(log::info);
