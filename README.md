@@ -51,3 +51,9 @@ and log the response lengths and execution times for each variant.
    - **runWithVirtualThreads**: Asynchronous requests using virtual threads. 
    - **runWithMutiny**: Asynchronous processing using Mutiny. 
    - **runWithVirtualThreadsMutiny**: Combining virtual threads with Mutiny.
+
+
+- **Benchmark.java:**
+
+    This class benchmarks the execution time and response lengths for the different execution strategies.
+    It provides insights into the performance benefits of using virtual threads and asynchronous processing.
